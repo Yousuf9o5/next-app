@@ -1,0 +1,21 @@
+main * {
+  transition: all ease 0.5s;
+}
+main *::-moz-selection {
+  background: transparent;
+}
+main *::selection {
+  background: transparent;
+}
+main *::-webkit-scrollbar {
+  display: none;
+}
+
+.card-container,
+.dates {
+  width: var(--width);
+}
+
+.grabbing {
+  cursor: grabbing;
+}/*# sourceMappingURL=style.css.map */
